@@ -14,7 +14,7 @@ INSERT INTO Salesman  (Salesman_id,name,city,Comission) VALUES
 ('5003', 'Lauson Hen', 'San Jose', 0.12);
 
 CREATE TABLE IF NOT EXISTS Customer(
-custommer_id TEXT PRIMARY KEY,
+customer_id TEXT PRIMARY KEY,
 cust_name TEXT,
 city TEXT,
 grade INTEGER,
